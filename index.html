@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+        <div class="amazon">
+         <p class="in border">  <img src="amazon.jpeg" alt="amazon" class="amazon1 ">.in</p>
+        </div>
+        <div class="address border">
+            <p>Delivered</p>
+            <div class="location">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" bi-geo-alt" viewBox="0 0 16 16">
+                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>
+              <p class="Update">Update location</p>
+            </div>
+        </div>
+        <div class="search">
+            <section class="select">
+                <option>All</option>
+            </section>
+            <input type="text" placeholder="Search Amazon.in" class="search1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+        </div>
+        <div class="sing border">
+            <p>Hello,sign in</p>
+            <p class="orders">Account & List</p>
+        </div>
+        <div class="return border">
+            <p>Returns</p>
+            <p class="orders">& Orders</p>
+        </div>
+        <div class="cart border">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+              </svg>
+              <p class="cart1">Cart</p>
+        </div>
+    </div>
+    <div class="navbar2">
+          <div >
+            <p class="list"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class=" bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+              </svg>All</p>
+        </div>
+        <div class="sell">
+<p class="sell1">Fresh</p>
+<p class="sell1">Amazon miniTV</p>
+<p class="sell1">Sell</p>
+<p class="sell1">Best Sellers</p>
+<p class="sell1">Mobiles</p>
+<p class="sell1">Today's Deals</p>
+<p class="sell1">Customer Service</p>
+<p class="sell1">Prime</p>
+<p class="sell1">Electronics</p>
+<p class="sell1">Fashion</p>
+<p class="sell1">New Releases</p>
+<p class="sell1">Home & Kitchen</p>
+<p class="sell1">Amazon Pay</p>
+<p class="sell1">Computers</p>
+<p class="sell1">Car & Motorbike</p>
+        </div>
+    </div>
+    </header>
+    <div class="relative h-screen w-screen">
+        <div id="carousel" class="h-full w-full overflow-hidden">
+            <div class="flex h-full w-full transition-transform duration-500">
+                <img src="img1.jpg" alt="Image 1" class="w-full h-full object-cover">
+                <img src="img2.jpg" alt="Image 2" class="w-full h-full object-cover">
+                <img src="img3.jpg" alt="Image 3" class="w-full h-full object-cover">
+            </div>
+        </div>
+        <button id="prev" class="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-4 rounded-full hover:bg-opacity-75 focus:outline-none">
+            &#10094;
+        </button>
+        <button id="next" class="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-4 rounded-full hover:bg-opacity-75 focus:outline-none">
+            &#10095;
+        </button>
+    </div>
+    <div class="shop">
+    <div class="box1 box">
+        <div>
+        <p class="font">Up to 60% off | Car, bike parts & accessories</p>
+        <div class="image" style="background-image: url('img4.jpg'); "> </div>
+            <p class="seemore">see more</p>
+    </div>
+    </div>
+    <div class="box2 box">
+        <div>
+            <p class="font"><div>
+                <p class="font">Minimum 50% off | Indoor plants</p>
+                <div class="image" style="background-image: url('img5.jpg'); "> </div>
+                    <p class="seemore">see more</p>
+            </div>
+        </div>
+    </div>
+    <div class="box3 box">
+        <div>
+            <p class="font"><div>
+                <p class="font">Only at ₹446* | Glass oil dispenser bottle for kitchen</p>
+                <div class="image" style="background-image: url('img6.jpg'); "> </div>
+                    <p class="seemore">see more</p>
+            </div>
+        </div>
+    </div>
+    <div class="box4 box">
+        <div>
+            <p class="font"><div>
+                <p class="font">Up to 50% off | International brands</p>
+                <div class="image" style="background-image: url('img7.jpg'); "> </div>
+                    <p class="seemore">see more</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class=" vishnu"><img src="img8.jpg" alt="Image 1"></div>
+    <div class=" vishnu"><img src="img9.jpg" alt="Image 2"></div>
+    <div class=" vishnu"><img src="img10.jpg" alt="Image 3"></div>
+    <div class=" vishnu"><img src="img11.jpg" alt="Image 4"></div>
+    <div class=" vishnu"><img src="img12.jpg" alt="Image 5"></div>
+    <div class=" vishnu"><img src="img13.jpg" alt="Image 6"></div>
+    <div class=" vishnu"><img src="img14.jpg" alt="Image 7"></div>
+    <div class=" vishnu"><img src="img15.jpg" alt="Image 8"></div>
+    <div class=" vishnu"><img src="img16.jpg" alt="Image 9"></div>
+    <div class=" vishnu"><img src="img17.jpg" alt="Image 10"></div>
+  </div>
+<footer class="footer">
+    <div class="information">
+     <div class="get">
+        <p class="main">Get to Know Us</p>
+<p>About Us</p>
+<p>Careers</p>
+<p>Press Releases</p>
+<p>Amazon Science</p>
+     </div>
+     <div class="get">
+       <p class="main"> Connect with Us</p>
+    <p>Facebook</p>
+<p>Twitter</p>
+<p>Instagram</p>
+     </div>
+     <div class="get">
+        <p class="main">Make Money with Us</p>
+    </p>Sell on Amazon</p>
+<p>Sell under Amazon Accelerator</p>
+<p>Protect and Build Your Brand</p>
+<p>Amazon Global Selling</p>
+<p>Supply to Amazon</p>
+<p>Become an Affiliate</p>
+<p>Fulfilment by Amazon</p>
+<p>Amazon Pay on Merchants</p>
+     </div>
+     <div class="get">
+        <p class="main">Let Us Help You</p>
+    </p>Your Account</p>
+<p>Returns Centre</p>
+<p>Recalls and Product Safety Alerts</p>
+<p>100% Purchase Protection</p>
+<p>Amazon App Download</p>
+<p>Help</p>
+     </div>
+    </div>
+<div>
+    <img src="amazon.jpeg" alt="amazon"  class="logo">
+</div>
+<div>
+    <p class="end">Conditions of Use & Sale, Privacy Notice, Interest-Based Ads</p>
+<p class="end">© 1996-2024, Amazon.com, Inc. or its affiliates</p>
+</div>
+</footer>
+
+    <script>
+        const carousel = document.getElementById('carousel').firstElementChild;
+        const prevButton = document.getElementById('prev');
+        const nextButton = document.getElementById('next');
+        let currentIndex = 0;
+
+        function updateCarousel() {
+            const offset = -currentIndex * 100;
+            carousel.style.transform = `translateX(${offset}%)`;
+        }
+
+        prevButton.addEventListener('click', () => {
+            currentIndex = (currentIndex === 0) ? carousel.children.length - 1 : currentIndex - 1;
+            updateCarousel();
+        });
+
+        nextButton.addEventListener('click', () => {
+            currentIndex = (currentIndex === carousel.children.length - 1) ? 0 : currentIndex + 1;
+            updateCarousel();
+        });
+    </script>
+    
+</body>
+</html>
